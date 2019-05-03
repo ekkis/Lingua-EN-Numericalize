@@ -1,0 +1,29 @@
+Lingua-EN-Numericalize
+
+Parses English representations of numbers like "two thousand and one".
+Some samples of the range of inputs it can handle can be found in
+the files t/*.list, which are used by the regression test suite.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DOCUMENTATION
+
+Full documentation available in the POD - execute:
+
+$ man Lingua::EN::Numericalize
+
+LICENCE AND COPYRIGHT
+
+Copyright (C) 2002 Erick Calder <ecalder@cpan.org>
+
+This utility is free and distributed under GPL, the Gnu Public License.
+A copy of this license was included in a file called LICENSE. If for some
+reason, this file was not included, please see http://www.gnu.org/licenses/
+to obtain a copy of this license.
